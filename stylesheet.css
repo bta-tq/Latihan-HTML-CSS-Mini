@@ -80,10 +80,40 @@ body {
   }
   
   .lesson-wrapper {
-    height: 500px;
+    height: 250px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
+  }
+  
+  .heading {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    font-size: 40px;
+    font-weight: bold;
+  }
+     
+  .txt-contents {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    font-size: 15px;
+    color: #000;
+  }
+
+  .pilihan-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    /* Ubah property text-align ke center */
+    text-align: center;
+    
+    text-align: center;
+    align-items: center;
   }
   
   .heading {
@@ -96,28 +126,30 @@ body {
     font-weight: normal;
   }
   
-  .lesson {
+  .pilih {
     float: left;
-    width: 25%;
+    width: 33%;
+    
   }
   
-  .lesson-icon {
+  /* Tambahkan CSS untuk lesson-icon */
+  .pilih-icon {
     position: relative;
+    
   }
   
-  .lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    color: white;
+  .pilih-icon img {
+    width: 50%;
+    height: 50%;
   }
-  
-  .txt-contents {
+
+  /* Tambahkan CSS untuk tag <p> di dalam lesson-icon */
+  .pilih-icon p {
     width: 80%;
     display: inline-block;
     margin-top: 20px;
     font-size: 15px;
-    color: #b3aeb5;
+    color: #000;
   }
   
   .heading h3 {
@@ -128,6 +160,8 @@ body {
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
+    background-color: #f7f7f7;
+
   }
   
   .message {
