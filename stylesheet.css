@@ -14,47 +14,38 @@ body {
   }
   
   .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    margin: 100px auto 100px auto;
     background-size: cover;
-    color: white;
+    color: #34353A;
     text-align: center;
   }
   
   .top-wrapper h1 {
     opacity: 0.7;
-    font-size: 45px;
+    font-size: 100px;
     letter-spacing: 5px;
     margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .top-wrapper span {
+    color: yellow;
   }
   
-  .top-wrapper p {
+  .top-wrapper h2 {
     opacity: 0.7;
     margin-bottom: 3px;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+
+  .top-wrapper img {
+    width: 20%;
+    height: 20%;
   }
   
-  .btn-wrapper {
-    margin: 20px 0;
-  }
-  
-  .btn-wrapper p {
-    margin: 10px 0;
-  }
-  
-  .signup {
-    background-color: #239b76;
-  }
-  
-  .facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-  }
-  
-  .twitter {
-    background-color: #55acee;
-  }
-  
-  .btn {
+  btn {
     padding: 12px 24px;
     color: white;
     display: inline-block;
@@ -66,12 +57,9 @@ body {
     opacity: 1;
   }
   
-  .fa {
-    margin-right: 5px;
-  }
   
-  .header {
-    background-color: #26d0c9;
+  header {
+    background-color: #404146;
     color: #fff;
     height: 90px;
   }
@@ -81,6 +69,14 @@ body {
     font-size: 36px;
     /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
     padding: 20px 40px;
+  }
+
+  header a {
+      list-style: none;
+      float: left;
+      /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
+      padding: 33px 20px;
+      color: white;
   }
   
   .lesson-wrapper {
@@ -146,18 +142,31 @@ body {
     top: 7px;
     box-shadow: none;
   }
+
+  footer {
+    background-color: #7C7D82;
+    color: #fff;
+    height: 160px;
+
+  }
   
   .footer-logo {
     float: left;
     font-size: 32px;
+    margin: 20px 20px;
   }
   
   .footer-list {
     float: right;
     text-align: center;
+    /* padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px 40px;
   }
   
   
   .footer-list li {
     padding-bottom: 20px;
+    list-style: none;
   }
